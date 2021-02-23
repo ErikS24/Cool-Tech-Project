@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="jumbotron container-fluid title">
+            <h1 style="color:white">Windows 10</h1>
+        </div>
+        
+        <ul class="horizontal">
+            <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+            <li><a href="#">Common Issues &#9662;</a>
+                <ul class="dropdown">      
+                    <li><a class="active" href="win10.html">Windowns 10</a></li>
+                    <li><a class="active" href="videos.html">Video's on Windows 10</a></li>
+                </ul>
+            </li>            
+            <li style="float: right;"><a href="contact.html"><i class="fa fa-fw fa-exclamation-circle"></i>Contact</a></li>
+        </ul>
+        
+        <div class="row">
+            <div class="col-sm-2">
+                <ul class="vertical">
+                    <li><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                    <li><a href="#">Common Issues &#9662;</a>
+                        <ul class="dropdown">    
+                            <li><a class="active" href="win10.html">Windowns 10</a></li>
+                            <li><a href="wifi.html">WI-FI</a></li>
+                        </ul>
+                    </li>                
+                    <li><a href="contact.html"><i class="fa fa-fw fa-exclamation-circle"></i>Contact</a></li>
+                </ul>
+            </div>
+        
+            <div class="col-sm-10">
+                <p style="font-size:40px; color:red">Troubleshoot problems updating Windows 10</p>
+                <div style="color:cornsilk;">
+                    <p style="font-size:30px;color:red">In Windows 10, you decide when and how to get the latest updates to keep your device running smoothly 
+                        and securely. This article will help you answer questions and troubleshoot common problems with your 
+                        Windows 10 update.
+                    </p>
+                    <p style="font-size:20px;color:white">Windows 10 requires certain requirements 
+                    to run on a pc Just as with space requirements, 
+                    your PC will also have to be capable of running 
+                    Windows 10. This means that it must reach certain 
+                    minimum system requirements. The requirements for 
+                    running Windows 10 are relatively low: A processor 
+                    of 1GHz or faster; 1GB (32-bit) or 2GB (64-bit) of 
+                    RAM; 30GB of free drive space; Microsoft DirectX 9 
+                    graphic device; and a Microsoft account combined 
+                    with internet access. To find out your PC's spec, 
+                    go to the Control Panel and select System and Security, 
+                    then System. However, keep in mind that these are the m
+                    inimum requirements, and you should shoot for higher specs 
+                    to have a smooth and enjoyable experience.</p>
+                    
+                    <p style="font-size:20px;color:white">
+                    When you install Windows 10 onto a new pc you would assume it would be a clean install, 
+                    but Microsoft has decided to put ads in Windows 10. 
+                    These programs which run in the background could impact performance of your PC and make it slow. 
+                    To remove these programs Microsoft has put in place you will need to 
+                    follow some simple steps to get rid of them. Go to windows start menu type 
+                    in “Windows Powershell  Admin'' click it and you will see a blue command box 
+                    which is where you will type in the following command  
+                    “Get-AppxPackage APPLICATION_NAME | Remove-AppxPackage'' 
+                    these will perform the command and start deleting the pre installed application.</p>
+                    <img src="powershell.jpg" alt="powershell" width="1500" height="1000">
+                    <p style="font-size:20px;color:red">
+                    Example of Powershell image </p>
+                   
+                    <p style="font-size:20px;color:white">
+                        Windows 10 is, in many ways, a truly internet based operating system. Mostly, 
+                        this is a bonus but there are times when it isn't and 
+                        Microsoft's attitude towards operating system updates 
+                        is one such time The most annoying part of automatic 
+                        updates is the restarting, which can seemingly come at 
+                        random and inconvenient times. The simplest way to counteract 
+                        this is to head to Windows Update in Settings > Update & Security, 
+                        click on Advanced Options and then Notify to Schedule Restart, 
+                        which means the OS will request a reboot instead of interrupting 
+                        everything you’re working on.
+                    </p>
+                    <img src="windows updates.PNG" alt="Windows-Update" width="1700" height="700">
+                    <p style="font-size:20px;color:red">
+                        Example of Windows Update screen image </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

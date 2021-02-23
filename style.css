@@ -1,0 +1,201 @@
+/* Basic styles */
+body{
+    background-color: #D5D5D5;
+    background-image:url("image.jpg");
+    background-size: cover;
+}
+h1 {
+    color: #9099A2; 
+}
+
+h2, h3, h4, h5, h6{
+    color: #6D7993; /* Accent */
+}
+
+a{
+    color:inherit;
+}
+
+a:hover{
+    color:#6D7993;
+}
+
+
+/* Homepage styles*/
+.cover{
+    height:300px;
+    margin-top:25%;   
+    
+}
+
+
+.jumbotron{
+    background-color: #ffffff;
+}
+
+.front-logo h1{
+    color:white;
+    margin: 50px;
+}
+
+.cover .col-sm-2{
+    height: 200px;
+    margin:50px 0px;
+}
+
+.front-nav-1{
+    background-color: #0044ff;
+}
+
+.front-nav-2{
+    background-color: #0044ff;
+}
+.front-nav-3{
+    background-color: #0044ff;
+}
+
+
+
+a.solid {
+    border-top: 3px solid #bbb;
+}
+
+.left {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.right {
+  float: right;
+  width: 90%;
+  padding: 10px;
+}
+
+.button {
+  width: 250px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.column1 {
+  float: left;
+  width: 70%;
+  padding: 5px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.column4 {
+  float: left;
+  width: 70%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  margin-left: 0.5px;
+  margin-top: 10px;
+}
+
+
+ul{
+    padding: 0;
+    list-style: none;
+    background: #f2f2f2;
+}
+
+ul.vertical{
+    width: 200px;
+    height: 1000px;
+}
+
+ul.horizontal li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul.vertical li{
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background: #939393;
+}
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    width: 140px;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.sub_column_column4 {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;            
+  padding: 10px;
+  color:rgb(255, 255, 255);
+  font-size: 70px;
+}
+
+.title{  
+  background-image:url("image.jpg"); 
+}
